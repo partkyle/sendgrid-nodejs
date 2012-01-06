@@ -14,5 +14,11 @@
     "nodemailer": ">= 0.1.22",
     "mime": ">= 1.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jasmine-node": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  }
 }
