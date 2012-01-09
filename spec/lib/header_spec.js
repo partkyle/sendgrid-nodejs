@@ -1,3 +1,5 @@
+console.log();
+
 describe('Header', function() {
     var header;
     beforeEach(function() {
